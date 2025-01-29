@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { toggleTask, editTask } from "../Redux/RodoSlice";
+import { toggleTask, editTask } from "../Redux/TodoSlice";
 
 const Task = ({ task }) => {
   const dispatch = useDispatch();
